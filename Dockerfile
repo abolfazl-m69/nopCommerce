@@ -9,6 +9,7 @@ RUN dotnet restore NopCommerce.sln
 
 WORKDIR /src/Presentation/Nop.Web   
 
+
 # build project   
 RUN dotnet build Nop.Web.csproj -c Release
 
